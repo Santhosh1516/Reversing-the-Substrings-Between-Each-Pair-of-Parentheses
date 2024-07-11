@@ -1,9 +1,8 @@
 import java.util.Stack;
-
-public class Day42 {
+public class demo1 {
     public static void main(String[] args) {
-        Day42 day42 = new Day42();
-        System.out.println(day42.reverseParentheses("(abcd)"));
+        demo1 day = new demo1();
+        System.out.println(day.reverseParentheses("(abcd)"));
     }
     public String reverseParentheses(String s) {
         int n = s.length();
